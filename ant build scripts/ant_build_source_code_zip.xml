@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_source_code_zip" name="Create Zip File with Source Code">
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_source_code_zip">
+    	<property name="deployroot" location="c:/temp/Vault3" />
+    	<property name="sourceroot" location="../.." />
+    	<property name="source_code_zip_file" location="${deployroot}/Vault3SourceCode.zip" />
+    	<delete file="${source_code_zip_file}" />
+    	<mkdir dir="${deployroot}" />
+    	<zip destfile="${source_code_zip_file}">
+    		<fileset dir="${sourceroot}">
+    			<include name="CommonCode/**/*" />
+    			<exclude name="CommonCode/**/*.jar" />
+    			<exclude name="**/.externalToolBuilders/" />
+    			<exclude name="**/.settings" />
+    			<exclude name="**/deploy/" />
+
+    			<include name="Vault/**/*" />
+    			<exclude name="Vault/**/*.properties" />
+    			<exclude name="Vault/**/*Dialog*.txt" />
+    			<exclude name="Vault/**/*.jar" />
+    			<exclude name="Vault/**/src.zip" />
+
+    			<include name="Vault 3 Free/**/*" />
+    			<include name="Vault 3 Paid/**/*" />
+    			<include name="Vault3Library/**/*" />
+
+    			<exclude name="**/bin/" />
+    			<exclude name="about_files/" />
+    			
+    			<exclude name="**/bin/" />
+    			<exclude name="**/gen/" />
+    			<exclude name="**/res/values/private_data.xml" />
+    		</fileset>
+    	</zip>
+    </target>
+</project>

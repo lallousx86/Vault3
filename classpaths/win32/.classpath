@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/javamail-1.4.2/mail.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Program Files/swt-3.7-win32-win32-x86/swt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/eclipse-SDK-3.7-win32/eclipse/plugins/org.eclipse.core.runtime_3.7.0.v20110110.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/eclipse-SDK-3.7-win32/eclipse/plugins/org.eclipse.equinox.common_3.6.0.v20110523.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/eclipse-SDK-3.7-win32/eclipse/plugins/org.eclipse.jface_3.7.0.I20110522-1430.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/eclipse-SDK-3.7-win32/eclipse/plugins/org.eclipse.jface.text_3.7.0.v20110505-0800.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/eclipse-SDK-3.7-win32/eclipse/plugins/org.eclipse.osgi_3.7.0.v20110613.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/eclipse-SDK-3.7-win32/eclipse/plugins/org.eclipse.text_3.5.100.v20110505-0800.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/eclipse-SDK-3.7-win32/eclipse/plugins/org.eclipse.core.commands_3.6.0.I20110111-0800.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/sqlite4java-213/sqlite4java.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/perf4j/perf4j-0.9.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/development/Vault/CommonCode/deploy/CommonCode.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

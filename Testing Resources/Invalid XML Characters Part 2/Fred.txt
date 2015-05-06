@@ -1,0 +1,14 @@
+Attached is a very small Vault 3 file which can be read properly by Vault 3
+the first time, but if Vault 3 saves it, then the saved file contains the
+invalid XML character...
+
+Vault 3 can read this string (syntax per the Frhed program): 
+"e: <bh:0d><bh:0a><bh:f4><bh:80><bh:82><bh:83>        Intelligent Platform "
+
+But if you save it, then Vault 3 creates the following string and cannot
+open the file.
+"e: <bh:0a>&#xdbc0;&#xdc83;        Intelligent Platform "
+
+I hope this helps you modify your code.
+
+The "XML Notepad" and Frhed programs helped me debug this.
